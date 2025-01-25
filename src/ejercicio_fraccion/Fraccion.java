@@ -2,7 +2,7 @@ package ejercicio_fraccion;
 
 public class Fraccion {
 
-    /*
+    /**
      * Clase que elabora una fraccion cuyos atributos son un numerador y un
      * denominador
      * El denominador nunca es 0
@@ -17,12 +17,12 @@ public class Fraccion {
     private int numerador;
     private int denominador;
 
-    /*
+    /**
      * Los atributos numerador y denominador son números enteros
      */
 
     public Fraccion() {
-        /*
+        /**
          * La función constructora es una función que admite sobrecarga
          * En este caso, al no recibir parámetros, devuelve la fracción 0/1
          */
@@ -31,7 +31,7 @@ public class Fraccion {
     }
 
     public Fraccion(int num, int den) {
-        /*
+        /**
          * Cuando la función constructora recibe dos parámetros, valida que el
          * denominador no sea 0
          * En ese caso, crea una nueva función con el numerador y el denominador
@@ -46,7 +46,7 @@ public class Fraccion {
     }
 
     public Fraccion(int num) {
-        /*
+        /**
          * Si el constructor solo recibe el numerador, asigna el valor 1 al denominador
          */
         this.numerador = num;
@@ -54,28 +54,28 @@ public class Fraccion {
     }
 
     public int getNumerador() {
-        /*
+        /**
          * Devuelve el valor del numerador
          */
         return this.numerador;
     }
 
     public void setNumerador(int num) {
-        /*
+        /**
          * Cambia el valor del numerador
          */
         this.numerador = num;
     }
 
     public int getDenominador() {
-        /*
+        /**
          * Devuelve el valor del denominador
          */
         return this.denominador;
     }
 
     public void setDenominador(int den) {
-        /*
+        /**
          * Cambia el valor del denominador, validando que no sea 0
          */
         if (den != 0) {
@@ -86,7 +86,7 @@ public class Fraccion {
     }
 
     public String fraccionTexto() {
-        /*
+        /**
          * Devuelve la fracción com texto
          */
 
@@ -94,7 +94,7 @@ public class Fraccion {
     }
 
     public static void main(String[] args) throws Exception {
-        /*
+        /**
          * Una serie de impresiones para asegurar el correcto funcionamiento de la
          * función
          */
